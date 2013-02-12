@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheck.Core", "HealthC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheck.Samples", "HealthCheck.Samples\HealthCheck.Samples.csproj", "{EF2E3BA5-8806-4E27-BFBA-C46C5688A99C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheck.Samples.Test", "HealthCheck.Samples.Test\HealthCheck.Samples.Test.csproj", "{84C4370D-1595-4A89-9C7E-DB5826654032}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{EF2E3BA5-8806-4E27-BFBA-C46C5688A99C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF2E3BA5-8806-4E27-BFBA-C46C5688A99C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF2E3BA5-8806-4E27-BFBA-C46C5688A99C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C4370D-1595-4A89-9C7E-DB5826654032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C4370D-1595-4A89-9C7E-DB5826654032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C4370D-1595-4A89-9C7E-DB5826654032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C4370D-1595-4A89-9C7E-DB5826654032}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
