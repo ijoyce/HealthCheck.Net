@@ -11,7 +11,7 @@ namespace HealthCheck.Core
 
         public string Name { get; private set; }
 
-        public abstract Result Check();
+        protected abstract Result Check();
 
         public Result Execute()
         {
