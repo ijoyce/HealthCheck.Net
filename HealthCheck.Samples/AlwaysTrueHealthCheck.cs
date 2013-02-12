@@ -8,7 +8,7 @@ namespace HealthCheck.Samples
         {
         }
 
-        public override Result Check()
+        protected override Result Check()
         {
             return new Result(true, null, null);
         }

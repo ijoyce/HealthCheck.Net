@@ -21,7 +21,7 @@ namespace HealthCheck.Samples
             _uri = uri;
         }
 
-        public override Result Check()
+        protected override Result Check()
         {
             var client = new HttpClient();
             var response = client.GetAsync(_uri).Result;
