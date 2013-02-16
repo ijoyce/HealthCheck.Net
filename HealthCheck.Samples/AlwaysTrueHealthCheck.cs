@@ -10,7 +10,7 @@ namespace HealthCheck.Samples
 
         protected override Result Check()
         {
-            return new Result(true, null, null);
+            return new Result(true, Name, null, null);
         }
     }
 }

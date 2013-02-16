@@ -25,7 +25,7 @@ namespace HealthCheck.Samples
         {
             var client = new HttpClient();
             var response = client.GetAsync(_uri).Result;
-            return new Result(response.StatusCode == HttpStatusCode.OK, response.StatusCode.ToString(), null);
+            return new Result(response.StatusCode == HttpStatusCode.OK, Name, response.StatusCode.ToString(), null);
         }
     }
 }
