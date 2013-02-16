@@ -26,5 +26,10 @@ namespace HealthCheck.Core
         {
             return _healthChecks.Values.Select(healthCheck => healthCheck.Execute()).ToList();
         }
+
+        public int Count()
+        {
+            return _healthChecks.Count;
+        }
     }
 }
