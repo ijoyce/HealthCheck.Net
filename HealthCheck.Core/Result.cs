@@ -4,7 +4,7 @@ namespace HealthCheck.Core
 {
     public class Result
     {
-        public Result(bool isHealthy, string name, string message, Exception exception)
+        public Result(bool isHealthy, string name, string message, string exception)
         {
             IsHealthy = isHealthy;
             Name = name;
@@ -15,6 +15,6 @@ namespace HealthCheck.Core
         public bool IsHealthy { get; set; }
         public string Name { get; set; }
         public string Message { get; set; }
-        public Exception Exception { get; set; }
+        public string Exception { get; set; }
     }
 }

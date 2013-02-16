@@ -21,7 +21,7 @@ namespace HealthCheck.Core
             }
             catch (Exception e)
             {
-                return new Result(false, Name, e.Message, e);
+                return new Result(false, Name, e.Message, e.StackTrace);
             }
         }
     }
