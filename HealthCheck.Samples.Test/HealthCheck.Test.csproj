@@ -7,8 +7,8 @@
     <ProjectGuid>{84C4370D-1595-4A89-9C7E-DB5826654032}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HealthCheck.Samples.Test</RootNamespace>
-    <AssemblyName>HealthCheck.Samples.Test</AssemblyName>
+    <RootNamespace>HealthCheck.Test</RootNamespace>
+    <AssemblyName>HealthCheck.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -53,10 +53,6 @@
     <ProjectReference Include="..\HealthCheck.Core\HealthCheck.Core.csproj">
       <Project>{80EC33AD-28FA-4F73-8624-9601C417DB16}</Project>
       <Name>HealthCheck.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\HealthCheck.Samples\HealthCheck.Samples.csproj">
-      <Project>{EF2E3BA5-8806-4E27-BFBA-C46C5688A99C}</Project>
-      <Name>HealthCheck.Samples</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

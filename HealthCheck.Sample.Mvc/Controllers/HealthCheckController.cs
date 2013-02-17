@@ -1,5 +1,4 @@
 ﻿using HealthCheck.Core;
-using HealthCheck.Samples;
 
 namespace HealthCheck.Sample.Mvc.Controllers
 {

@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using HealthCheck.Core;
+using NUnit.Framework;
 
 namespace HealthCheck.Samples.Test
 {

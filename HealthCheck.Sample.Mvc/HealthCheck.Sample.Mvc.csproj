@@ -97,10 +97,6 @@
       <Project>{80ec33ad-28fa-4f73-8624-9601c417db16}</Project>
       <Name>HealthCheck.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\HealthCheck.Samples\HealthCheck.Samples.csproj">
-      <Project>{ef2e3ba5-8806-4e27-bfba-c46c5688a99c}</Project>
-      <Name>HealthCheck.Samples</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheck.Core", "HealthCheck.Core\HealthCheck.Core.csproj", "{80EC33AD-28FA-4F73-8624-9601C417DB16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheck.Samples", "HealthCheck.Samples\HealthCheck.Samples.csproj", "{EF2E3BA5-8806-4E27-BFBA-C46C5688A99C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheck.Samples.Test", "HealthCheck.Samples.Test\HealthCheck.Samples.Test.csproj", "{84C4370D-1595-4A89-9C7E-DB5826654032}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheck.Test", "HealthCheck.Samples.Test\HealthCheck.Test.csproj", "{84C4370D-1595-4A89-9C7E-DB5826654032}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheck.Sample.Mvc", "HealthCheck.Sample.Mvc\HealthCheck.Sample.Mvc.csproj", "{73E2A2F2-B555-4341-958A-F3EF97ECB877}"
 EndProject
@@ -19,10 +17,6 @@ Global
 		{80EC33AD-28FA-4F73-8624-9601C417DB16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80EC33AD-28FA-4F73-8624-9601C417DB16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80EC33AD-28FA-4F73-8624-9601C417DB16}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EF2E3BA5-8806-4E27-BFBA-C46C5688A99C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF2E3BA5-8806-4E27-BFBA-C46C5688A99C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF2E3BA5-8806-4E27-BFBA-C46C5688A99C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EF2E3BA5-8806-4E27-BFBA-C46C5688A99C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{84C4370D-1595-4A89-9C7E-DB5826654032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{84C4370D-1595-4A89-9C7E-DB5826654032}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84C4370D-1595-4A89-9C7E-DB5826654032}.Release|Any CPU.ActiveCfg = Release|Any CPU
